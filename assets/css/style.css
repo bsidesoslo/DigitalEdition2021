@@ -21,7 +21,7 @@ body {
 #content {
 	width: 100%;
 	height: 400px;
-	background: url('2020/assets/images/Splash_medium.png') center top no-repeat;
+	background: url('../images/Splash_medium.png') center top no-repeat;
 	padding-top: 350px;
 }
 
