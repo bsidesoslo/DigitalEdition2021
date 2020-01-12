@@ -31,7 +31,11 @@ social:
 markdown: kramdown
 permalink: pretty
 
-exclude: ["README.md"]
+exclude: 
+- README.md
+- LICENSE
+- Dockerfile
+- CNAME
 
 menu:
 - title: CFP
