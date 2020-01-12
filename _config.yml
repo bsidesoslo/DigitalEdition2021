@@ -1,38 +1,81 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+# Configuration for BSides Oslo 2020 website. This
+# file contains most of the variables for the information on the website.
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
 title: BSides Oslo 2020
 date: May 13th, 2020
-email: info@bsidesoslo.no
-baseurl: "" # the subpath of your site, e.g. /blog
-twitter: https://twitter.com/OsloBSides
-youtube: https://www.youtube.com/channel/UC6kTOacrQTu1ahmRCvXhhrA
+location: "Vulkan Arena"
+
+description: "BSides Oslo is an inclusive community driven information security event. The second annual event will be helt on May 13th 2020 at Vulkan Arena"
+
+baseurl: ""
+
+twitter_username: OsloBSides
+
+forms:
+  cfp: https://forms.gle/1PgjNGRGTNGo9gWZ6 
+
+emails:
+  info: info@bsidesoslo.no
+  sponsors: sponsors@bsidesoslo.no
+  cfp: cfp@bsidesoslo.no
+
+social:
+- title: twitter
+  url: https://twitter.com/OsloBSides
+- title: youtube
+  url: https://www.youtube.com/channel/UC6kTOacrQTu1ahmRCvXhhrA
+- title: envelope
+  url: mailto:info@bsidesoslo.no
 
 # Build settings
 markdown: kramdown
+permalink: pretty
 
 exclude: ["README.md"]
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+menu:
+- title: CFP
+  url: "/#cfp"
+- title: Sponsorship
+  url: "/#sponsors"
+- title: About
+  url: "/#about"
+- title: Team
+  url:  "/#team"
+- title: Code of Conduct
+  url: "/code-of-conduct"
+
+team:
+- name: Patricia Aas
+  position: Board member
+  social:
+  - title: twitter
+    url: https://twitter.com/pati_gallardo
+- name: Nelson Cheuque
+  position: Board member
+  social:
+  - title: twitter
+    url: https://twitter.com/nechered
+- name: Ryan Mattinson
+  position: Board member
+  social: 
+  - title: envelope
+    url: mailto:info@bsidesoslo.no
+- name: Erlend Oftedal
+  position: Board member
+  social:
+  - title: twitter
+    url: https://twitter.com/webtonull
+- name: Christer Vaskinn
+  position: Board member
+  social:
+  - title: twitter
+    url: https://twitter.com/chrizmo
+- name: Eivind Utnes
+  position: Speaker Manager
+  social:
+  - title: twitter
+    url: https://twitter.com/0xprime
+  - title: envelope
+    url: mailto:cfp@bsidesoslo.no
+
