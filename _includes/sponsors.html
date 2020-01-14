@@ -7,6 +7,59 @@
         </span>
       </div>
     </div>
+    {% if site.data.sponsors.gold != null %}
+    <div class="row">
+	    <div class="col-lg-12 text-center">
+		    <h3 class="section-subheading text-muted sponsor-tier">Gold Sponsors</h3>
+	    </div>
+    </div>
+        {% assign rows = site.data.sponsors.gold.size | divided_by: 2.0 | ceil %}
+        {% for i in (1..rows) %}
+        {% assign offset = forloop.index0 | times: 2 %}
+        <div class="row sponsors-list">
+            {% for sponsor in site.data.sponsors.gold | limit:2 offset:offset %} 
+            <div class="col-md-6 text-center"><a href="{{ sponsor.url }}"><img src="{{ site.baseurl }}/img/sponsors/{{ sponsor.logo }}" alt="{{ sponsor.name }}" /></a></div>
+            {% endfor %}
+        </div>
+            {% endfor %}
+    {% endif %}
+
+    {% if site.data.sponsors.standard != null %}
+    <div class="row">
+	    <div class="col-lg-12 text-center">
+		    <h3 class="section-subheading text-muted sponsor-tier">Standard Sponsors</h3>
+	    </div>
+    </div>
+        {% assign rows = site.data.sponsors.standard.size | divided_by: 3.0 | ceil %}
+        {% for i in (1..rows) %}
+        {% assign offset = forloop.index0 | times: 3 %}
+        <div class="row sponsors-list">
+            {% for sponsor in site.data.sponsors.standard | limit:3 offset:offset %} 
+            <div class="col-md-4"><a href="{{ sponsor.url }}"><img src="{{ site.baseurl }}/img/sponsors/{{ sponsor.logo }}" alt="{{ sponsor.name }}" /></a></div>
+            {% endfor %}
+        </div>
+            {% endfor %}
+    {% endif %}
+
+    {% if site.data.sponsors.community != null %}
+    <div class="row">
+	    <div class="col-lg-12 text-center">
+		    <h3 class="section-subheading sponsor-tier text-muted">Community Sponsors</h3>
+	    </div>
+    </div>
+        {% assign rows = site.data.sponsors.community.size | divided_by: 4.0 | ceil %}
+        {% for i in (1..rows) %}
+        {% assign offset = forloop.index0 | times: 4 %}
+        <div class="row sponsors-list">
+                <div class="col-md-offset-3"></div>
+            {% for sponsor in site.data.sponsors.community | limit:4 offset:offset %} 
+            <div class="col-md-3"><a href="{{ sponsor.url }}"><img src="{{ site.baseurl }}/img/sponsors/{{ sponsor.logo }}" alt="{{ sponsor.name }}" /></a></div>
+            {% endfor %}
+                <div class="col-md-offset-3"></div>
+        </div>
+            {% endfor %}
+    {% endif %}
+
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 text-center text-muted">
         <p class="large">BSides Oslo is a non-profit conference, and relies on sponsorships. If you or your company wish to sponsor the event, several sponsorship packages are available. For more information, please read our <a href="{{ site.baseurl }}/files/BSides_Oslo_2020_Sponsorship.pdf">sponsorship document</a>.</p>
