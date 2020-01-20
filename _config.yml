@@ -49,6 +49,11 @@ menu:
 - title: Code of Conduct
   url: "/code-of-conduct"
 
+collections:
+  talks:
+    output: true
+    layout: talks
+
 team:
 - name: Patricia Aas
   position: Board member

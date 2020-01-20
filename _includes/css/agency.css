@@ -352,19 +352,19 @@ section h3.section-subheading {
     text-transform: none;
 }
 
-#portfolio .portfolio-item {
+#speaker .speaker-item {
     right: 0;
     margin: 0 0 15px;
 }
 
-#portfolio .portfolio-item .portfolio-link {
+#speaker .speaker-item .speaker-link {
     display: block;
     position: relative;
     margin: 0 auto;
     max-width: 400px;
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+#speaker .speaker-item .speaker-link .speaker-hover {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -376,11 +376,11 @@ section h3.section-subheading {
     background: rgba({{ site.data.template.color.primary | hex_to_rgb | join: ',' }}, .9);
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+#speaker .speaker-item .speaker-link .speaker-hover:hover {
     opacity: 1;
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+#speaker .speaker-item .speaker-link .speaker-hover .speaker-hover-content {
     position: absolute;
     top: 50%;
     width: 100%;
@@ -391,16 +391,29 @@ section h3.section-subheading {
     color: #fff;
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+#speaker .speaker-item .speaker-link .speaker-hover .speaker-hover-content i {
     margin-top: -12px;
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+#speaker .speaker-item .speaker-link .speaker-hover .speaker-hover-content h3,
+#speaker .speaker-item .speaker-link .speaker-hover .speaker-hover-content h4 {
     margin: 0;
 }
 
-#portfolio .portfolio-item .portfolio-caption {
+#speakers .speaker-item .image {
+	width: 100%;
+	height: 400px;
+	background-position: center center;
+	background-size: cover;
+}
+
+@media(max-width: 768px){
+	#speakers .speaker-item .image {
+		height: 200px;
+	}
+}
+
+#speaker .speaker-item .speaker-caption {
     margin: 0 auto;
     padding: 25px;
     max-width: 400px;
@@ -408,24 +421,24 @@ section h3.section-subheading {
     background-color: #fff;
 }
 
-#portfolio .portfolio-item .portfolio-caption h4 {
+#speaker .speaker-item .speaker-caption h4 {
     margin: 0;
     text-transform: none;
 }
 
-#portfolio .portfolio-item .portfolio-caption p {
+#speaker .speaker-item .speaker-caption p {
     margin: 0;
     font-family: {{ site.data.template.font.secondary }};
     font-size: 16px;
     font-style: italic;
 }
 
-#portfolio * {
+#speaker * {
     z-index: 2;
 }
 
 @media(min-width:767px) {
-    #portfolio .portfolio-item {
+    #speaker .speaker-item {
         margin: 0 0 30px;
     }
 }
@@ -680,3 +693,31 @@ section h3.section-subheading.sponsor-tier {
         font-size: 24px;
 }
 
+#talk-information ul{
+	padding-left: 0;
+}
+
+#talk-information li {
+	list-style: none;
+}
+.speaker-image {
+	background-position: center center;
+	background-size: cover;
+	height: 400px;
+}
+
+.speaker-bio {
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.speaker-name {
+	font-size: 2em;
+	font-weight: bold;
+}
+
+@media(max-width: 768px){
+	.speaker-image {
+		height: 200px;
+	}
+}
