@@ -7,7 +7,20 @@ Not ready yet
 
 ## Adding team members
 
-To add team members, open `_config.yml`, then edit the `team` object. It's important to add some sort of contact information, otherwise the view is broken. To add e-mail set `social.title: envelope` 
+
+Team members are stored as Jekyll data. To edit team members, open `_data/team.yml` and edit the members list.
+
+The basic list object looks like this:
+```
+- name: <Name of member>
+  position: <position/title of member>
+  social:
+  - title: <social media type>
+    url: <url to social media>
+```
+
+It's important to add some sort of contact/social media information, otherwise the display of members get messed up. To add an e-mail address set `social.title: envelope`.
+
 ## Adding sponsors
 
 Not ready yet
