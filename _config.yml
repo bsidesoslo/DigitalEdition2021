@@ -49,42 +49,13 @@ menu:
 - title: Code of Conduct
   url: "/code-of-conduct"
 
+site_features:
+  cfp: true
+  speakers: false
+
+
 collections:
   talks:
     output: true
     layout: talks
-
-team:
-- name: Patricia Aas
-  position: Board member
-  social:
-  - title: twitter
-    url: https://twitter.com/pati_gallardo
-- name: Nelson Cheuque
-  position: Board member
-  social:
-  - title: twitter
-    url: https://twitter.com/nechered
-- name: Ryan Mattinson
-  position: Board member
-  social: 
-  - title: envelope
-    url: mailto:info@bsidesoslo.no
-- name: Erlend Oftedal
-  position: Board member
-  social:
-  - title: twitter
-    url: https://twitter.com/webtonull
-- name: Christer Vaskinn
-  position: Board member
-  social:
-  - title: twitter
-    url: https://twitter.com/chrizmo
-- name: Eivind Utnes
-  position: Speaker Manager
-  social:
-  - title: twitter
-    url: https://twitter.com/0xprime
-  - title: envelope
-    url: mailto:cfp@bsidesoslo.no
 
