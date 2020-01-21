@@ -7,11 +7,13 @@
     <body id="page-top" class="index">
     {% include navigation.html %}
     {% include header.html %}
+    {% if site.site_features.cfp %}
     {% include cfp.html %}
-    {% include sponsors.html %}
-    {% if site.talks %}
+    {% endif %}
+    {% if site.site_features.speakers %}
     {% include talks.html %}
     {% endif %}
+    {% include sponsors.html %}
     {% include about.html %}
     {% include team.html %}
     {% include footer.html %}

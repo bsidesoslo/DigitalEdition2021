@@ -3,7 +3,23 @@ Website for BSides Oslo 2020
 
 ## Adding speakers
 
-Not ready yet
+Adding speakers is done by creating a markdown file named the same as the title of the talk in `/_talks`. The file needs to include the required front matter for talks. At a minimum it needs to look like this:
+
+```
+---
+layout: talks
+title: <Title of talk>
+length: <Length of talk>
+scheduled: <OPTIONAL: Used when program is ready>
+video: <OPTIONAL: Used when presentation is uploaded to YouTube>
+speakers:
+- name: <Name of speakers>
+  image: <Name of image in /img/speakers/>
+  bio: <Bio of speakers>
+---
+```
+
+It's possible to add several speakers.
 
 ## Adding team members
 

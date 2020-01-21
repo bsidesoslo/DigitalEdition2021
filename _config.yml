@@ -57,5 +57,4 @@ site_features:
 collections:
   talks:
     output: true
-    layout: talks
 
