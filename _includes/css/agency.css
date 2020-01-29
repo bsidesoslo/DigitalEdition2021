@@ -666,9 +666,14 @@ body {
 /* Sponsors */
 
 .row.sponsors-list img{
-        width: 80%;
+        width: 40%;
 }
 
+@media(min-width:768px){
+  .row.sponsors-list img{
+      width: 70%;
+  }
+}
 .row.sponsors-list {
         display: flex;
         min-height: 200px;
