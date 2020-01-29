@@ -662,3 +662,21 @@ body {
 .navbar .navbar-default .navbar-fixed-top .navbar-page {
   background-color: #{{ site.data.template.color.secondary-dark }};
 }
+
+/* Sponsors */
+
+.row.sponsors-list img{
+        width: 80%;
+}
+
+.row.sponsors-list {
+        display: flex;
+        min-height: 200px;
+        align-items: center;
+        text-align: center;
+}
+
+section h3.section-subheading.sponsor-tier {
+        font-size: 24px;
+}
+
