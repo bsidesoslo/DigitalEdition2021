@@ -38,10 +38,10 @@ exclude:
 - CNAME
 
 menu:
-- title: CFP
-  url: "/#cfp"
 - title: Tickets
   url: "https://www.deltager.no/Bsidesoslo2020"
+- title: CFP
+  url: "/#cfp"
 - title: Sponsorship
   url: "/#sponsors"
 - title: About
