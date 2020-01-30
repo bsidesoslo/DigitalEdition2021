@@ -40,6 +40,8 @@ exclude:
 menu:
 - title: CFP
   url: "/#cfp"
+- title: Tickets
+  url: "https://www.deltager.no/Bsidesoslo2020"
 - title: Sponsorship
   url: "/#sponsors"
 - title: About
