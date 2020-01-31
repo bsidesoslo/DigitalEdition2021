@@ -9,6 +9,8 @@ members:
   social:
   - title: twitter
     url: https://twitter.com/nechered
+  - title: envelope
+    url: mailto:sponsors@bsidesoslo.no
 - name: Ryan Mattinson
   position: Board member
   social: 
@@ -31,3 +33,8 @@ members:
     url: https://twitter.com/0xprime
   - title: envelope
     url: mailto:cfp@bsidesoslo.no
+- name: Una Prohic
+  position: Sponsor Manager
+  social:
+  - title: envelope
+    url: mailto:sponsors@bsidesoslo.no
