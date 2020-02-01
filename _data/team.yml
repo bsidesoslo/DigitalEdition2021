@@ -36,5 +36,7 @@ members:
 - name: Una Prohic
   position: Sponsor Manager
   social:
+  - title: twitter
+    url: https://twitter.com/Unapr0
   - title: envelope
     url: mailto:sponsors@bsidesoslo.no
