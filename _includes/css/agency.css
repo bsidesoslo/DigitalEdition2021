@@ -666,7 +666,7 @@ body {
 /* Sponsors */
 
 .row.sponsors-list img{
-        width: 40%;
+        width: 100%;
 }
 
 @media(min-width:768px){
@@ -676,7 +676,7 @@ body {
 }
 .row.sponsors-list {
         display: flex;
-        min-height: 200px;
+	margin-bottom: 10%;
         align-items: center;
         text-align: center;
 }
