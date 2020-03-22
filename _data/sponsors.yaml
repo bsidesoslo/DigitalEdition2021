@@ -9,6 +9,15 @@ gold:
   logo: mnemonic.png
   url: https://www.mnemonic.no  
 standard:
+- name: Capgemini
+  logo: capgemini.png
+  url: https://www.capgemini.com/no-no/
+- name: Equinor
+  logo: equinor.png
+  url: https://www.equinor.com
+- name: Wathcom
+  logo: watchcom.png
+  url: http://www.watchcom.no/
 community:
 - name: TurtleSec
   logo: turtlesec.png
