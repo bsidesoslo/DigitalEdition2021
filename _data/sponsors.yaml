@@ -21,6 +21,12 @@ standard:
 - name: Wathcom
   logo: watchcom.png
   url: http://www.watchcom.no/
+- name: FFI
+  logo: ffi.png
+  url: http://www.ffi.no/
+- name: Zacco
+  logo: Zacco.png
+  url: http://www.zacco.com/
 community:
 - name: TurtleSec
   logo: turtlesec.png
