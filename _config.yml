@@ -2,7 +2,7 @@
 # file contains most of the variables for the information on the website.
 
 title: BSides Oslo 2020
-date: May 13th, 2020
+date: November 23th, 2020
 location: "Vulkan Arena"
 
 description: "BSides Oslo is an inclusive community driven information security event. The second annual event will be held in November."
@@ -28,8 +28,6 @@ social:
   url: mailto:info@bsidesoslo.no
 
 # Build settings
-markdown: kramdown
-permalink: pretty
 
 exclude: 
 - README.md
@@ -38,8 +36,6 @@ exclude:
 - CNAME
 
 menu:
-- title: Tickets
-  url: "https://www.deltager.no/Bsidesoslo2020"
 - title: CFP
   url: "/#cfp"
 - title: Sponsorship
