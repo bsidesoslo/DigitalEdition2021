@@ -31,3 +31,6 @@ community:
 - name: TurtleSec
   logo: turtlesec.png
   url: https://turtlesec.no/ 
+- name: ISACA
+  logo: Isaca.png
+  url: https://engage.isaca.org/norwaychapter/home
