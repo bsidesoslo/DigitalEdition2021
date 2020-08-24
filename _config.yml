@@ -1,11 +1,11 @@
 # Configuration for BSides Oslo 2020 website. This
 # file contains most of the variables for the information on the website.
 
-title: BSides Oslo 2020
-date: November 23rd, 2020
+title: BSides Oslo 2021
+date: May 12th, 2021
 location: "Vulkan Arena"
 
-description: "BSides Oslo is an inclusive community driven information security event. The second annual event will be held November 23rd at Vulkan Arena."
+description: "BSides Oslo is an inclusive community driven information security event. The second annual event will be held May 12th 2021 at Vulkan Arena."
 
 baseurl: ""
 
@@ -36,8 +36,6 @@ exclude:
 - CNAME
 
 menu:
-- title: CFP
-  url: "/#cfp"
 - title: Sponsorship
   url: "/#sponsors"
 - title: About
