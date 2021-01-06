@@ -37,3 +37,6 @@ community:
 - name: ISACA
   logo: Isaca.png
   url: https://engage.isaca.org/norwaychapter/home
+- name: PwC
+  logo: pwc.png
+  url: https://www.pwc.no/
