@@ -27,6 +27,9 @@ standard:
 - name: Zacco
   logo: Zacco.png
   url: http://www.zacco.com/
+- name: Atea
+  logo: atea.png
+  url: http://www.atea.no
 community:
 - name: TurtleSec
   logo: turtlesec.png
