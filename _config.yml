@@ -2,17 +2,16 @@
 # file contains most of the variables for the information on the website.
 
 title: BSides Oslo 2021
-date: May 12th, 2021
-location: "Vulkan Arena"
+date: June 8th, 2021
 
-description: "BSides Oslo is an inclusive community driven information security event. The second annual event will be held May 12th 2021 at Vulkan Arena."
+description: "BSides Oslo is an inclusive community driven information security event. Due to the Covid-19 pandemic, the first digital BSides Oslo event will be held on June 8th, 2021."
 
 baseurl: ""
 
 twitter_username: OsloBSides
 
 forms:
-  cfp: https://forms.gle/1PgjNGRGTNGo9gWZ6 
+  cfp: https://forms.gle/5jtNRoJpkhmRYVFZ8
 
 emails:
   info: info@bsidesoslo.no
@@ -37,6 +36,8 @@ exclude:
 - CNAME
 
 menu:
+- title: CFP
+  url: "/#cfp"
 - title: Sponsorship
   url: "/#sponsors"
 - title: About
@@ -45,4 +46,3 @@ menu:
   url:  "/#team"
 - title: Code of Conduct
   url: "/code-of-conduct"
-
