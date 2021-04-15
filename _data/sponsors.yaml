@@ -40,3 +40,6 @@ community:
 - name: PwC
   logo: pwc.png
   url: https://www.pwc.no/
+- name: Kovert
+  logo: Kovert.png
+  url: https://kovert.no
