@@ -37,8 +37,6 @@ exclude:
 - CNAME
 
 menu:
-- title: CFP
-  url: "/#cfp"
 - title: Sponsorship
   url: "/#sponsors"
 - title: About
