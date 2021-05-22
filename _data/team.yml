@@ -1,29 +1,29 @@
 members:
-- name: Patricia Aas
-  position: Board member
-  social:
-  - title: twitter
-    url: https://twitter.com/pati_gallardo
-- name: Nelson Cheuque
-  position: Board member
-  social:
-  - title: twitter
-    url: https://twitter.com/nechered
+- name: Phanida Meesin
+  position: Board Member
+  social: 
+  - title: envelope
+    url: mailto:info@bsidesoslo.no
 - name: Ryan Mattinson
-  position: Board member
+  position: Board Member
   social: 
   - title: envelope
     url: mailto:info@bsidesoslo.no
 - name: Erlend Oftedal
-  position: Board member
+  position: Board Member
   social:
   - title: twitter
     url: https://twitter.com/webtonull
 - name: Christer Vaskinn
-  position: Board member
+  position: Board Member
   social:
   - title: twitter
     url: https://twitter.com/chrizmo
+- name: Vetle Hjelle
+  position: Board Member
+  social:
+  - title: twitter
+    url: https://twitter.com/bordplate
 - name: Eivind Utnes
   position: Speaker Manager
   social:
@@ -31,3 +31,15 @@ members:
     url: https://twitter.com/0xprime
   - title: envelope
     url: mailto:cfp@bsidesoslo.no
+- name: Nelson Cheuque
+  position: Sponsor Manager
+  social:
+  - title: twitter
+    url: https://twitter.com/nechered
+  - title: envelope
+    url: mailto:sponsors@bsidesoslo.no
+- name: Patricia Aas
+  position: Volunteer
+  social:
+  - title: twitter
+    url: https://twitter.com/pati_gallardo

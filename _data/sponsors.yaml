@@ -1,3 +1,45 @@
 gold:
+- name: Nagarro
+  logo: Nagarro.png
+  url: https://nagarrosecurity.com/
+- name: SpareBank 1 Utvikling
+  logo: SpareBank1.png
+  url: https://sparebank1.dev/
+- name: mnemonic
+  logo: mnemonic.png
+  url: https://www.mnemonic.no 
+- name: Sopra Steria
+  logo: soprasteria.png
+  url: https://www.soprasteria.no/  
 standard:
+- name: Capgemini
+  logo: capgemini.png
+  url: https://www.capgemini.com/no-no/
+- name: Equinor
+  logo: equinor.png
+  url: https://www.equinor.com
+- name: Wathcom
+  logo: watchcom.png
+  url: http://www.watchcom.no/
+- name: FFI
+  logo: ffi.png
+  url: http://www.ffi.no/
+- name: Zacco
+  logo: Zacco.png
+  url: http://www.zacco.com/
+- name: Atea
+  logo: atea.png
+  url: http://www.atea.no
 community:
+- name: TurtleSec
+  logo: turtlesec.png
+  url: https://turtlesec.no/ 
+- name: ISACA
+  logo: Isaca.png
+  url: https://engage.isaca.org/norwaychapter/home
+- name: PwC
+  logo: pwc.png
+  url: https://www.pwc.no/
+- name: Kovert
+  logo: Kovert.png
+  url: https://kovert.no

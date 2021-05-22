@@ -1,23 +1,24 @@
 # Configuration for BSides Oslo 2020 website. This
 # file contains most of the variables for the information on the website.
 
-title: BSides Oslo 2020
-date: May 13th, 2020
-location: "Vulkan Arena"
+title: BSides Oslo 2021
+date: June 8th, 2021
 
-description: "BSides Oslo is an inclusive community driven information security event. The second annual event will be held on May 13th 2020 at Vulkan Arena"
+description: "BSides Oslo is an inclusive community driven information security event. Due to the Covid-19 pandemic, the first digital BSides Oslo event will be held on June 8th, 2021."
 
 baseurl: ""
 
 twitter_username: OsloBSides
+youtube_channel: https://www.youtube.com/channel/UC6kTOacrQTu1ahmRCvXhhrA 
 
 forms:
-  cfp: https://forms.gle/1PgjNGRGTNGo9gWZ6 
+  cfp: https://forms.gle/5jtNRoJpkhmRYVFZ8
 
 emails:
   info: info@bsidesoslo.no
   sponsors: sponsors@bsidesoslo.no
   cfp: cfp@bsidesoslo.no
+  returns: 2021@bsidesoslo.no
 
 social:
 - title: twitter
@@ -28,8 +29,6 @@ social:
   url: mailto:info@bsidesoslo.no
 
 # Build settings
-markdown: kramdown
-permalink: pretty
 
 exclude: 
 - README.md
@@ -38,8 +37,6 @@ exclude:
 - CNAME
 
 menu:
-- title: CFP
-  url: "/#cfp"
 - title: Sponsorship
   url: "/#sponsors"
 - title: About
@@ -50,11 +47,10 @@ menu:
   url: "/code-of-conduct"
 
 site_features:
-  cfp: true
+  cfp: false
   speakers: false
 
 
 collections:
   talks:
     output: true
-

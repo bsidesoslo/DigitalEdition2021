@@ -7,8 +7,9 @@
     <body id="page-top" class="index">
     {% include navigation.html %}
     {% include header.html %}
-    {% if site.site_features.cfp %}
-    {% include cfp.html %}
+    {% include covid.html %}
+    {% if data.speakers %}
+    {% include speakers.html %}
     {% endif %}
     {% if site.site_features.speakers %}
     {% include talks.html %}

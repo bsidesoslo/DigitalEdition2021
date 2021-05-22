@@ -39,7 +39,17 @@ It's important to add some sort of contact/social media information, otherwise t
 
 ## Adding sponsors
 
-Not ready yet
+Sponsors are managed by the `/_data/sponsors.yaml` file, while their logos are stored in `/img/sponsors/`.
+
+After adding the logo in the folder above, open the `sponsors.yaml` file and add a list item containing the information about the sponsor under the correct tier.
+
+The list item needs to contain these keys and values:
+
+```
+- name: <Name of sponsor>
+  logo: <Name of logo file (with extension)>
+  url: <URL to use for links>
+```
 
 ## Edit menu
 

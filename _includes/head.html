@@ -1,15 +1,15 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>{{ site.title }}: {{ site.date }} at {{ site.location }}{% if page.title %} - {{ page.title }}{% endif %}</title>
+    <title>{{ site.title }}: Digital edition on {{ site.date }} {% if page.title %} - {{ page.title }}{% endif %}</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="{{ site.description }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <!-- Open Graph -->
 
-  <meta property="og:title" content="{{ site.title }}: {{ site.date }} at {{ site.location }}{% if page.title %} - {{ page.title }}{% endif %}" />
+  <meta property="og:title" content="{{ site.title }}: Digital edition on {{site.date}}{% if page.title %} - {{ page.title }}{% endif %}" />
   <meta property="og:type" content="website" />
-  <meta property="og:image" content="{{ "img/bsides_logo_card.png" | absolute_url }}" />
+  <meta property="og:image" content="{{ "img/BSidesDigitalEdition.png" | absolute_url }}" />
   <meta property="og:url" content="https://bsidesoslo.no{%if page.url %}{{ page.url }}{% endif %}" />
   <meta property="og:site_name" content="{{ site.title | escape }}" />
   <meta property="og:description" content="{{ site.description }}" />
@@ -17,10 +17,10 @@
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:site" content="@{{site.twitter_username}}" />
-  <meta name="twitter:title" content="{{ site.title }}" />
+  <meta name="twitter:title" content="{{ site.title }}: Digital edition on {{site.date}}" />
   <meta name="twitter:description" content="{{ site.description }}" />
   <meta name="twitter:url" content="{{ "https://bsidesoslo.no/" }}" />
-  <meta name="twitter:image" content="{{ "https://bsidesoslo.no/" }}{{ "img/bsides_logo_card.png" }}" />
+  <meta name="twitter:image" content="{{ "https://bsidesoslo.no/" }}{{ "img/BSidesDigitalEdition.png" }}" />
 
     <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <link rel="stylesheet" href="{{ "/style.css" | prepend: site.baseurl }}">
