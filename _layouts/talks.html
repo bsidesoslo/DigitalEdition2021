@@ -10,8 +10,9 @@
           <div id="talk-information">
             <p>
             <ul>
+	      {%if page.lengt != null %}
               <li><b>Length:</b> {{ page.length }} minutes.</li>
-
+	      {% endif %}
               {%if page.scheduled != null %}<li><b>Scheduled: </b>{{ page.scheduled }}</li>{% endif %}
               {% if page.video != null %}<li><b>Recording: </b>{{ page.video }}</li>{% endif %}
             </p>
@@ -21,7 +22,11 @@
       </div>
       {% for speaker in page.speakers %}
       <div class="row speaker-bio">
-        <div class="col-md-4 speaker-image" style="background-image: url({{site.baseurl}}/img/speakers/{{speaker.image}});">
+	      <!--        <div class="col-md-4 overflow-hidden speaker-image" style="background-image: url({{site.baseurl}}/img/speakers/{{speaker.image}});">-->
+      <div class="col-md-4 overflow-hidden"> 
+	<img class="speaker-image" src="{{site.baseurl}}/img/speakers/{{speaker.image}}" alt="{{speaker.name}}"/>
+
+
         </div>
         <div class="col-md-8">
           <p class="speaker-name">{{ speaker.name }}</p>

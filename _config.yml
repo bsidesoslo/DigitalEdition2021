@@ -37,7 +37,9 @@ exclude:
 - CNAME
 
 menu:
-- title: Sponsorship
+- title: Speakers
+  url: "/#speakers"
+- title: Sponsors
   url: "/#sponsors"
 - title: About
   url: "/#about"
@@ -48,7 +50,7 @@ menu:
 
 site_features:
   cfp: false
-  speakers: false
+  speakers: true
 
 
 collections:

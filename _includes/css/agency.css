@@ -410,7 +410,7 @@ section h3.section-subheading {
 
 @media(max-width: 768px){
 	#speakers .speaker-item .image {
-		height: 200px;
+		height: 40vh;
 	}
 }
 
@@ -708,8 +708,9 @@ section h3.section-subheading.sponsor-tier {
 }
 .speaker-image {
 	background-position: center center;
-	background-size: cover;
-	height: 400px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 100%;
 }
 
 .speaker-bio {
@@ -720,10 +721,4 @@ section h3.section-subheading.sponsor-tier {
 .speaker-name {
 	font-size: 2em;
 	font-weight: bold;
-}
-
-@media(max-width: 768px){
-	.speaker-image {
-		height: 200px;
-	}
 }
