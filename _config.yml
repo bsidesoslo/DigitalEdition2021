@@ -37,6 +37,8 @@ exclude:
 - CNAME
 
 menu:
+- title: Program
+  url: "/#program"
 - title: Speakers
   url: "/#speakers"
 - title: Sponsors

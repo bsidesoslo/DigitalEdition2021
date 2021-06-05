@@ -1,0 +1,33 @@
+<!-- Program -->
+<section id="program">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+          <h2 class="section-heading">Program</h2>
+        {% assign program = site.data.program | concat: site.talks | sort: "scheduled" %} 
+      </div>
+      <div class="row">
+        <div class="col-sm-10 col-sm-offset-2 text-muted">
+          <ul class="text-left">
+          {% for item in program %}
+          {% if item.url %}
+          <li><a href="{{ item.url }}">{{ item.scheduled }}: {{ item.title }}</a></br>
+                          {% assign speakers = item.speakers | map: 'name' %}
+                          <i>{{ speakers | join: ", " }}</i>
+                  </li>
+          {% else %}
+            <li>{{item.scheduled}}: {{item.title}}</li>
+          {% endif %}
+          {% endfor %}
+          </ul>
+        </div>
+        <div class="row">
+          <div class="col-sm-12 text-center text-muted">
+            <p class="large">All times are in UTC+1</p>
+          </div>
+      </div>
+      </div>
+    </div>
+  </div>
+
+</section>

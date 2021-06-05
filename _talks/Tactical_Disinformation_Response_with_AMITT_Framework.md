@@ -1,6 +1,7 @@
 ---
 layout: talks
 title: Tactical Disinformation Response with AMITT Framework
+scheduled: "14:40"
 speakers:
 - name: Sara Jayne Terp
   image: sara_jayne_terp.jpg 

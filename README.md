@@ -1,6 +1,12 @@
 # Bsides Oslo 2020
 Website for BSides Oslo 2020
 
+## Changing the scheduele
+
+Each talk has its own time that is managed through the `scheduled` metadata for each talk. For non-talk items, add the title and scheduled time in `/_data/program.yaml`.
+
+Items are automatically sorted by the scheduled time when displayed.
+
 ## Adding speakers
 
 Adding speakers is done by creating a markdown file named the same as the title of the talk in `/_talks`. The file needs to include the required front matter for talks. At a minimum it needs to look like this:
