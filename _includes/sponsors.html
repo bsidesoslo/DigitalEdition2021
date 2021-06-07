@@ -7,56 +7,56 @@
         </span>
       </div>
     </div>
-    {% if site.data.sponsors.gold != null %}
+    {% if site.data.sponsors.gold != null -%}
     <div class="row">
 	    <div class="col-sm-12 text-center">
 		    <h3 class="section-subheading text-muted sponsor-tier">Gold Sponsors</h3>
 	    </div>
     </div>
-        {% assign rows = site.data.sponsors.gold.size | divided_by: 2.0 | ceil %}
-        {% for i in (1..rows) %}
-        {% assign offset = forloop.index0 | times: 2 %}
+        {% assign rows = site.data.sponsors.gold.size | divided_by: 2.0 | ceil -%}
+        {% for i in (1..rows) -%}
+        {% assign offset = forloop.index0 | times: 2 -%}
         <div class="row sponsors-list">
-            {% for sponsor in site.data.sponsors.gold | limit:2 offset:offset %} 
+            {% for sponsor in site.data.sponsors.gold | limit:2 offset:offset -%} 
             <div class="col-xs-6 text-center"><a href="{{ sponsor.url }}"><img src="{{ site.baseurl }}/img/sponsors/{{ sponsor.logo }}" alt="{{ sponsor.name }}" /></a></div>
             {% endfor %}
         </div>
             {% endfor %}
     {% endif %}
 
-    {% if site.data.sponsors.standard != null %}
+    {% if site.data.sponsors.standard != null -%}
     <div class="row">
 	    <div class="col-lg-12 text-center">
 		    <h3 class="section-subheading text-muted sponsor-tier">Standard Sponsors</h3>
 	    </div>
     </div>
-        {% assign rows = site.data.sponsors.standard.size | divided_by: 3.0 | ceil %}
-        {% for i in (1..rows) %}
-        {% assign offset = forloop.index0 | times: 3 %}
+        {% assign rows = site.data.sponsors.standard.size | divided_by: 3.0 | ceil -%}
+        {% for i in (1..rows) -%}
+        {% assign offset = forloop.index0 | times: 3 -%}
         <div class="row sponsors-list">
-            {% for sponsor in site.data.sponsors.standard | limit:3 offset:offset %} 
+            {% for sponsor in site.data.sponsors.standard | limit:3 offset:offset -%} 
             <div class="col-xs-4"><a href="{{ sponsor.url }}"><img src="{{ site.baseurl }}/img/sponsors/{{ sponsor.logo }}" alt="{{ sponsor.name }}" /></a></div>
-            {% endfor %}
+            {% endfor -%}
         </div>
-            {% endfor %}
-    {% endif %}
+            {% endfor -%}
+    {% endif -%}
 
-    {% if site.data.sponsors.community != null %}
+    {% if site.data.sponsors.community != null -%}
     <div class="row">
 	    <div class="col-lg-12 text-center">
 		    <h3 class="section-subheading sponsor-tier text-muted">Community Sponsors</h3>
 	    </div>
     </div>
-        {% assign rows = site.data.sponsors.community.size | divided_by: 4.0 | ceil %}
-        {% for i in (1..rows) %}
-        {% assign offset = forloop.index0 | times: 4 %}
+        {% assign rows = site.data.sponsors.community.size | divided_by: 4.0 | ceil -%}
+        {% for i in (1..rows) -%}
+        {% assign offset = forloop.index0 | times: 4 -%}
         <div class="row sponsors-list">
-            {% for sponsor in site.data.sponsors.community | limit:4 offset:offset %} 
+            {% for sponsor in site.data.sponsors.community | limit:4 offset:offset -%} 
             <div class="col-xs-3"><a href="{{ sponsor.url }}"><img src="{{ site.baseurl }}/img/sponsors/{{ sponsor.logo }}" alt="{{ sponsor.name }}" /></a></div>
-            {% endfor %}
+            {%- endfor -%}
         </div>
-            {% endfor %}
-    {% endif %}
+            {% endfor -%}
+    {% endif -%}
 
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 text-center text-muted">

@@ -9,9 +9,13 @@
 		    {% endif %}
                 </div>
             </div>
+	    {%- assign sorted_talks = site.talks | sort: "scheduled" -%}
+            {%- for talk in sorted_talks -%}
+	    {%- assign modulo = forloop.index | modulo: 3 -%}
+            {%- if modulo == 0 -%}
             <div class="row">
-            {% for talk in site.talks %}
-	    {% for speaker in talk.speakers %}
+	    {%- endif -%}
+	    	{%- for speaker in talk.speakers -%}
                 <div class="col-md-4 col-sm-6 speaker-item">
 			<a href="{{ talk.url }}" class="speaker-link">
 			<div class="image" style="background-image: url({{ site.baseurl }}/img/speakers/{{ speaker.image }});" alt="{{ speaker.name }}"></div>
@@ -21,8 +25,10 @@
                     </div>
                     </a>
                 </div>
-		{% endfor %}
-            {% endfor %}
+		{%- endfor -%}
+	    {%- if modulo == 0 -%}
             </div>
+	    {%- endif -%}
+            {%- endfor -%}
         </div>
     </section>
