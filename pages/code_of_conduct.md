@@ -56,6 +56,6 @@ We expect all community participants (contributors, paid or otherwise; sponsors;
 
 ## License and attribution
 
-BSides Oslo Code of Conduct is distributed under a [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/) license. It is based on the [pdx.rb code of conduct](http://pdxruby.org/codeofconduct) and [https://berlincodeofconduct.org/](https://berlincodeofconduct.org/).
+BSides Oslo Code of Conduct is distributed under a [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/) license. It is based on the [pdx.rb code of conduct](https://pdxruby.org/CONDUCT) and [https://berlincodeofconduct.org/](https://berlincodeofconduct.org/).
 
 This information is also [available as a pdf]({{site.baseurl}}/files/Bsides_Oslo_CoC.pdf).
