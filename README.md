@@ -1,5 +1,5 @@
-# Bsides Oslo 2020
-Website for BSides Oslo 2020
+# Bsides Digitial Edition 2021
+Website for BSides Oslo Digital Edition 2021
 
 ## Changing the scheduele
 
