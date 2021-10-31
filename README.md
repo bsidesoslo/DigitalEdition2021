@@ -1,4 +1,4 @@
-# Bsides Digitial Edition 2021
+# Bsides Oslo Digitial Edition 2021
 Website for BSides Oslo Digital Edition 2021
 
 ## Changing the scheduele
