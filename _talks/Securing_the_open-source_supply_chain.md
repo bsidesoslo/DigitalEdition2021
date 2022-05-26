@@ -2,6 +2,7 @@
 layout: talks
 title: Securing the open-source supply chain
 scheduled: "14:00"
+video: https://www.youtube.com/watch?v=ptoDdcJ_B_g
 speakers:
 - name: Morten Linderud
   image: morten_linderud.jpg

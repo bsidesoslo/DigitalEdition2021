@@ -2,6 +2,7 @@
 layout: talks
 title: How I hacked the largest bank in Norway using a 1-page paper form
 scheduled: "14:40"
+video: https://www.youtube.com/watch?v=WbCy0W3xdbg
 speakers:
 - name: Per Thorsheim
   image: PerThorsheim.jpg

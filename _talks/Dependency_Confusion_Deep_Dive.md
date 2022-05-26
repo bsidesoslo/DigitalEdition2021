@@ -2,6 +2,7 @@
 layout: talks
 title: Dependency Confusion Deep Dive
 scheduled: "12:10"
+video: https://www.youtube.com/watch?v=-0bOOgMWRVA
 speakers:
 - name: Stian Kristoffersen
   image: stian-kristoffersen.png
